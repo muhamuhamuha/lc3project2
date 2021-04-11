@@ -57,7 +57,7 @@ r2 += 1     # r2 = 256 or x100
 r2 *= -1    # r2 = -256
 ```
 
-Now, if you remember, we had x3000 stored into R7. So this time, I stored R0 with 15, and R1 with x3000 from R7. As I decremented R0, I kept adding R1 with R2 (-x0100). When R0 became zero, R1 was left with x2100, from which I subtracted 1. R1 now had x20FF, our destination for the calculated value. In javascript this would have looked like:
+Now, if you remember, we had x3000 stored into R7. So this time, I stored R0 with 15, and R1 with x3000 from R7. As I decremented R0, I kept adding R1 with R2 (-x0100). When R0 became zero, R1 was left with x2100, from which I subtracted 1. R1 was left with x20FF, our destination for the calculated value. In javascript this would have looked like:
 ```javascript
 
 let r7 = 12288;     // x3000
