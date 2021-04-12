@@ -73,4 +73,4 @@ r1 -= 1             // r1 = x20FF
 I ST'd x20FF into x30FF, and finally STI'd R5 (the calculated value) into x30FF which sent our final value to its final destination.
 </p>
 
-<h2 class="centered header">The End</h2>
+<h3 class="centered header">The End</h3>
